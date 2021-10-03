@@ -1,0 +1,355 @@
+
+
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div1{
+    width: 100%;
+    background-image: url(imgs/img\ 1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 300px;
+    padding-top: 200px;
+    color: whitesmoke;
+}
+.nav{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    min-width:500px;
+}
+.span1{
+    line-height: 70px;
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+.spans{
+    margin-top: -30px;
+    margin-left: 990px;
+    width: 300px;
+    text-align: center;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+}
+.span2{
+    margin-right: 10px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+
+.span2::after{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: whitesmoke;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: width 0.5s;
+}
+.span2:hover::after{
+    width: 70px;
+}
+
+
+
+.span3{
+    margin-right: 10px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+
+.span3::after{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: whitesmoke;
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+    transition: width 0.5s;
+}
+.span3:hover::after{
+    width: 80px;
+}
+
+
+
+.button1{
+    width: 120px;
+    height: 30px;
+    border: 2px solid whitesmoke;
+    font-size: 16px;
+    font-weight: 520;
+    background-color: transparent;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+
+.button1:hover{
+    border: 0;
+    background-color: whitesmoke;
+    color: rgb(40, 60, 50);
+}
+
+
+
+.lombok{
+    text-align: center;
+}
+.p1{
+    font-size: 100px;
+}
+.p2{
+    margin-top: -110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div2{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    background-color: lightgrey;
+}
+.p4{
+    font-size: 19px;
+    font-weight: 520;
+}
+.divs{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.firstdiv{
+    width: 300px;
+    height: 400px;
+    border: 2px solid rgb(48, 47, 47);
+}
+.firstdiv:hover{
+    border: 0;
+    box-shadow: 0 0 17px 2px;
+}
+.img2{
+    width: 300px;
+
+}
+.p5{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    cursor: text;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div3{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.left{
+    width: 500px;
+}
+.img5{
+    width: 100%;
+}
+.right{
+    width: 40%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 100px;
+}
+.p6{
+    font-size: 19px;
+    font-weight: 550;
+}
+.p7{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div4{
+    width: 100%;
+    background-color: lightgray;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+h2{
+    font-weight: 100;
+}
+h6{
+    font-weight: 100;
+}
+input{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+    height: 45px;
+    outline: 0;
+    border: 0;
+}
+.button{
+    width: 8%; 
+    margin: auto;
+}
+.button2{
+    margin-top: 30px;
+    width: 120px;
+    height: 35px;
+    border: 2px solid rgb(30, 60, 60);
+    color: rgb(40, 60, 60);
+    background-color: transparent;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.button2:hover{
+    border: 0;
+    background-color: rgb(40, 60, 60);
+    color: lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div5{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-arounds;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.imgs{
+    width: 44%;
+    text-align: start;
+    margin-left: 7%;
+}
+.facebook{
+    width: 50px;
+}
+.span9{
+    text-align: end;
+    width: 40%;
+    margin-right: 1%;
+}
+.span8{
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.span8:hover{
+    color: rgb(30, 60, 60);
+}
